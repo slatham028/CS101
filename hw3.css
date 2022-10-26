@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+  font-family: 'Questrial', sans-serif;
+  background-image: linear-gradient(pink, purple);
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-style: italic;
+}
+table{
+  border: 1px solid black;
+  margin: 1em;
+  text-align: off-center;
+}
+td{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: off-center;
+}
+.one{
+  background-color: rgb(218, 226, 232);
+  margin: 2em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+}
+.two{
+  background-color: rgb(218, 226, 232);
+  margin: 2em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.p150PX{
+  width: 150px;
+}
+#cell2{
+  font-size: x-large;
+}
+#cell4{
+  font-weight: bold;
+}
+#listItem3{
+  border-style: dashed;
+}
+#sheepImage{
+  height: 500px;
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(359deg);}
+}
